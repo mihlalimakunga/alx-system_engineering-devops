@@ -1,1 +1,2 @@
-su betty: switches the current user to the user betty.
+su betty: Switches the current user to the user betty.
+id -un: Prints the effective useername of the current user.
