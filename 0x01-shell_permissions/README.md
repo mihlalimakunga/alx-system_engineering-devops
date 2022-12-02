@@ -7,4 +7,4 @@ chmod 744 hello: Adds execute permission to the owner of the file hello.
 chmod 754 hello: Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 chmod ugo+x hello: Adds execution permission to the owner, the group owner and other users, to the file hello.
 chmod 007 hello: Sets no permission for user and group at all, sets all the permissions for other users.
-ls -l hello: Displays the file in the format that reveals the file's properties  
+chmod 753 hello: User has all permissions, group can only read and execute hello file and other users can write and execute hello file.    
