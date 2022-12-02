@@ -5,4 +5,4 @@ sudo chown betty hello: Changes the owner of the file hello to the user betty.
 touch hello: Creates an empty file called hello.
 chmod 744 hello: Adds execute permission to the owner of the file hello.
 chmod 754 hello: Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
-chmod 777 hell: Adds execution permission to the owner, the group owner and other users, to the file hello. 
+chmod 751 hello: Adds execution permission to the owner, the group owner and other users, to the file hello. 
