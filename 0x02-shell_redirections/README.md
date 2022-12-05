@@ -5,4 +5,4 @@ cat /etc/passwd :Displays the contents of the file name /etc/passwd.
 cat /etc/passwd /etc/hosts : Displays the contents of both files /etc/passwd and /etc/hosts.
 tail -n10 /etc/passwd : Displays the last 10 lines of the file /etc/passwd.
 head -n10 /etc/passwd : Displays the first 10 lines of the file /etc/passwd.
-awk 'NR==3 { print; exit }' iacta : Displays the third line of the file name iacta.
+head -n 3 iacta|tail -1 : Displays the third line of the file name iacta.
