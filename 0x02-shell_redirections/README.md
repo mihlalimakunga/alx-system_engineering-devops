@@ -9,3 +9,4 @@ head -n 3 iacta|tail -1 : Displays the third line of the file name iacta.
 echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
 ls -la > ls_cwd_content : Redirects the standard output of ls -la to the ls_wcd_content file.
 tail -n 1 iacta >> iacta_last_line_duplicate : Duplicate the last line of file iacta into iacta_last_line_duplicate file.
+find . -name "*.js" -type f -delete : Deletes all the regular files (not directories) with .js extension in the current directory and its subfolders.
