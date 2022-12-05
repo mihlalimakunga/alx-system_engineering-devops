@@ -11,4 +11,4 @@ ls -la > ls_cwd_content : Redirects the standard output of ls -la to the ls_wcd_
 tail -n 1 iacta >> iacta_last_line_duplicate : Duplicate the last line of file iacta into iacta_last_line_duplicate file.
 find . -name "*.js" -type f -delete : Deletes all the regular files (not directories) with .js extension in the current directory and its subfolders.
 find . -mindepth 1 -type d | wc -l : Counts the number of directories, sub directories and hidden directories in the current directory excluding the current directory itself.
-ls -lt : Lists the 10 newest files in the current directory.
+ls -lt | head -10 : Lists the 10 newest files in the current directory from newest to the oldest.
