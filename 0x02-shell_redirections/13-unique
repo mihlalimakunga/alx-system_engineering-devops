@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /tmp/0x02 | sort | uniq -1
