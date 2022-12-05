@@ -12,4 +12,4 @@ tail -n 1 iacta >> iacta_last_line_duplicate : Duplicate the last line of file i
 find . -name "*.js" -type f -delete : Deletes all the regular files (not directories) with .js extension in the current directory and its subfolders.
 find . -mindepth 1 -type d | wc -l : Counts the number of directories, sub directories and hidden directories in the current directory excluding the current directory itself.
 ls -t | head -10 : Lists the 10 newest files in the current directory from newest to the oldest.
-cat /tmp/0x02 | sort | uniq -1 : Takes a list of words as input, sorts them out and prints only words that appear exactly once.
+sort | uniq -1 : Takes a list of words as input, sorts them out and prints only words that appear exactly once.
