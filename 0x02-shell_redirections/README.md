@@ -3,3 +3,4 @@ echo "Hello, World": Prints "Hello, World" followed by a new line to the standar
 "(Ôo)': Displays a confused smiley
 cat /etc/passwd :Displays the contents of the file name /etc/passwd.
 cat /etc/passwd /etc/hosts : Displays the contents of both files /etc/passwd and /etc/hosts.
+tail -n10 /etc/passwd : Displays the last 10 lines of the file /etc/passwd.
