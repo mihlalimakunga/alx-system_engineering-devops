@@ -13,3 +13,4 @@ find . -name "*.js" -type f -delete : Deletes all the regular files (not directo
 find . -mindepth 1 -type d | wc -l : Counts the number of directories, sub directories and hidden directories in the current directory excluding the current directory itself.
 ls -t | head -10 : Lists the 10 newest files in the current directory from newest to the oldest.
 sort | uniq -1 : Takes a list of words as input, sorts them out and prints only words that appear exactly once.
+grep ^root /etc/passwd : Displays lines containing the pattern "root" from the file /etc/passwd.
