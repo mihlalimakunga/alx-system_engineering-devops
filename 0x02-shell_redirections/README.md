@@ -14,4 +14,4 @@ find . -mindepth 1 -type d | wc -l : Counts the number of directories, sub direc
 ls -t | head -10 : Lists the 10 newest files in the current directory from newest to the oldest.
 sort | uniq -1 : Takes a list of words as input, sorts them out and prints only words that appear exactly once.
 grep ^root /etc/passwd : Displays lines containing the pattern "root" from the file /etc/passwd.
-grep -n bin /etc/passwd : Displays the number of lines that have the pattern "bin" in the file /etc/passwd.
+grep -c bin /etc/passwd : Displays the number of lines that have the pattern "bin" in the file /etc/passwd.
