@@ -17,3 +17,4 @@ grep ^root /etc/passwd : Displays lines containing the pattern "root" from the f
 grep -c bin /etc/passwd : Displays the number of lines that have the pattern "bin" in the file /etc/passwd.
 grep -A 3 "root" /etc/passwd : Displays lines containing the pattern "root" followed by 3 lines after them in the file /etc/passwd.
 grep -v bin /etc/passwd : Displays all the lines that exclude "bin" pattern in them in the file /etc/passwd.
+grep -i /etc/ssh/sshd_config : Displays all lines of the file /etc/ssh/sshd_config starting with a letter and including capital letters.
