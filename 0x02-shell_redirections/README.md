@@ -15,3 +15,4 @@ ls -t | head -10 : Lists the 10 newest files in the current directory from newes
 sort | uniq -1 : Takes a list of words as input, sorts them out and prints only words that appear exactly once.
 grep ^root /etc/passwd : Displays lines containing the pattern "root" from the file /etc/passwd.
 grep -c bin /etc/passwd : Displays the number of lines that have the pattern "bin" in the file /etc/passwd.
+grep -A 3 "root" /etc/passwd : Displays lines containing the pattern "root" followed by 3 lines after them in the file /etc/passwd.
