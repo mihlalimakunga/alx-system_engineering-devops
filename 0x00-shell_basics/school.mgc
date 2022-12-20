@@ -1,3 +1,2 @@
 #!/bin/bash
-0       search/1/c      =<?school                  SCHOOL script text
-!:mime  text/x-unittest
+-a *School
