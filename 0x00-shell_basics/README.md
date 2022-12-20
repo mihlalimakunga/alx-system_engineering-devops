@@ -5,4 +5,4 @@ ls -l : A script that displays current directory contents in a long format.
 ls -l -a : A script that displays current directory contents, including hidden files (starting with .) using the long format.
 ls -n -a : A script that displays current directory contents, including hidden files (starting with .) using the long format and with user and group IDs displayed numerically.
 mkdir /tmp/my_first_directory : A script that creates a directory named my_first_directory in the /tmp/ directory.
-mv betty /tmp/ /tmp/my_first_director : A script that moves the file betty from /tmp/ to /tmp/my_first_directory.
+mv /tmp/betty /tmp/my_first_director : A script that moves the file betty from /tmp/ to /tmp/my_first_directory.
