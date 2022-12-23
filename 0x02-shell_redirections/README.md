@@ -12,7 +12,7 @@ cat ./iacta | tail --lines=1 >> iacta : Duplicates the last line of file iacta i
 find . -name "*.js" -type f -delete : Deletes all the regular files (not directories) with .js extension in the current directory and its subfolders.
 find . -mindepth 1 -type d | wc -l : Counts the number of directories, sub directories and hidden directories in the current directory excluding the current directory itself.
 ls -t | head -10 : Lists the 10 newest files in the current directory from newest to the oldest.
-sort | uniq -1 : Takes a list of words as input, sorts them out and prints only words that appear exactly once.
+sort | uniq -u : Takes a list of words as input, sorts them out and prints only words that appear exactly once.
 grep ^root /etc/passwd : Displays lines containing the pattern "root" from the file /etc/passwd.
 grep -c bin /etc/passwd : Displays the number of lines that have the pattern "bin" in the file /etc/passwd.
 grep -A 3 "root" /etc/passwd : Displays lines containing the pattern "root" followed by 3 lines after them in the file /etc/passwd.
