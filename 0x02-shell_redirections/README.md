@@ -8,7 +8,7 @@ head -n10 /etc/passwd : Displays the first 10 lines of the file /etc/passwd.
 head -n 3 iacta|tail -1 : Displays the third line of the file name iacta.
 echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)": Creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 ls -la > ls_cwd_content : Redirects the standard output of ls -la to the ls_wcd_content file.
-tail -n 1 iacta >> iacta_last_line_duplicate : Duplicate the last line of file iacta into iacta_last_line_duplicate file.
+tail --lines=1 >> iacta : Duplicates the last line of file iacta into iacta_last_line_duplicate file.
 find . -name "*.js" -type f -delete : Deletes all the regular files (not directories) with .js extension in the current directory and its subfolders.
 find . -mindepth 1 -type d | wc -l : Counts the number of directories, sub directories and hidden directories in the current directory excluding the current directory itself.
 ls -t | head -10 : Lists the 10 newest files in the current directory from newest to the oldest.
