@@ -5,6 +5,7 @@ sudo chown betty hello: Changes the owner of the file hello to the user betty.
 touch hello: Creates an empty file called hello.
 chmod 744 hello: Adds execute permission to the owner of the file hello.
 chmod 754 hello: Adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
-chmod ugo+x hello: Adds execution permission to the owner, the group owner and other users, to the file hello.
-chmod 007 hello: Sets no permission for user and group at all, sets all the permissions for other users.
-chmod 753 hello: User has all permissions, group can only read and execute hello file and other users can write and execute hello file.    
+chmod ugo+x hello: Adds execution permission to the owner, the group owner and the other users, to the file hello.
+chmod 007: Sets the permission to the file hello as follows: owner has no permissions at all, group has no permissions at all and all other users have all the permissions.
+chomd 753 hello: Sets the mode of the file hello to -rwxr-x-wx.
+chmod --reference=olleh hello: Sets the mode of the file hello the same as olleh’s mode.
