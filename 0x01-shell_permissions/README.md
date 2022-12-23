@@ -10,3 +10,4 @@ chmod 007: Sets the permission to the file hello as follows: Owner has no permis
 chmod 753: Sets the mode of the file hello to -rwxr-x-wx.
 chmod --reference=olleh hello: Sets the mode of the file hello the same as olleh’s mode.
 chmod ugo+x ./*: Adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files are not changed.
+mkdir -m 751 my_dir: Creates a directory called my_dir with permissions 751 in the working directory.
