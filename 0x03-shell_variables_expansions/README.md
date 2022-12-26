@@ -7,3 +7,5 @@ export PATH=$PATH:/action : Adds /action to the PATH. /action becomes the last d
 echo $PATH | tr ":" "\n" | wc -l : Script that counts the number of directories in the PATH.
 
 printenv : Script that lists environment variables.
+
+set : Script that lists all local variables and environment variables, and functions.
