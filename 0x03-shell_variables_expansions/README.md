@@ -25,3 +25,5 @@ echo $((2#$BINARY)) : Script that converts a number from base 2 to base 10.
 echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo : Script that prints all possible combinations of two letters, except oo.
 
 echo "$NUM" | bc -l : Script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
+
+printf "%.2f \n" $NUM : Script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
