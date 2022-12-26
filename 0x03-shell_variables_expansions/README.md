@@ -21,3 +21,5 @@ echo $(($POWER/$DIVIDE)) : Script that prints the result of POWER divided by DIV
 echo $((($BREATH)**($LOVE))) : Script that displays the result of BREATH to the power LOVE.
 
 echo $((2#$BINARY)) : Script that converts a number from base 2 to base 10.
+
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo : Script that prints all possible combinations of two letters, except oo.
