@@ -19,3 +19,5 @@ echo $((128 + $TRUEKNOWLEDGE)) : Script that prints the result of the addition o
 echo $(($POWER/$DIVIDE)) : Script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
 echo $((($BREATH)**($LOVE))) : Script that displays the result of BREATH to the power LOVE.
+
+echo $((2#$BINARY)) : Script that converts a number from base 2 to base 10.
