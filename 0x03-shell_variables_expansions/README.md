@@ -9,3 +9,5 @@ echo $PATH | tr ":" "\n" | wc -l : Script that counts the number of directories 
 printenv : Script that lists environment variables.
 
 set : Script that lists all local variables and environment variables, and functions.
+
+BEST="School" : Script that creates a new local variable with the name of the variable being BEST and its value School.
