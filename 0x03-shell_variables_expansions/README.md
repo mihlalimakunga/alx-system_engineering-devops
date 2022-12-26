@@ -13,3 +13,7 @@ set : Script that lists all local variables and environment variables, and funct
 BEST="School" : Script that creates a new local variable with the name of the variable being BEST and its value School.
 
 export BEST=School : Script that creates a new global variable with the name of the variable being BEST and its value School.
+
+echo $((128 + $TRUEKNOWLEDGE)) : Script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+
+echo $(($POWER/$DEVIDE)) : Script that prints the result of POWER divided by DIVIDE, followed by a new line.
