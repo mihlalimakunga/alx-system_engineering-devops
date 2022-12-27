@@ -29,3 +29,5 @@ echo "$NUM" | bc -l : Script that prints a number with two decimal places, follo
 printf "%.2f \n" $NUM : Script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 
 printf '%x\n' $DECIMAL : Script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL.
+
+tr 'a-zA-Z' 'n-za-mN-ZA-N' : Script that encodes and decodes text using the rot13 encryption, assumming ASCII.
