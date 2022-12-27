@@ -21,3 +21,5 @@ cat /etc/ssh/sshd_config | grep "^[[:upper:]]" : Displays all lines of the file 
 tr Ac Ze : Replaces all the characters A and c from input to Z and e respectively.
 tr -d 'cC' : Removes all letters c and C from input.
 rev : Reverses its input.
+cat /etc/passwd | sort -k1 | cut -d ':' -f1,6 : Displays all users and their home directories, sorted by users.
+find . -empty -printf '%f\n' : Finds all empty files and directories in the current directory and all sub-directories.
