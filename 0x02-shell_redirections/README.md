@@ -18,4 +18,4 @@ grep -c bin /etc/passwd : Displays the number of lines that have the pattern "bi
 grep -A 3 "root" /etc/passwd : Displays lines containing the pattern "root" followed by 3 lines after them in the file /etc/passwd.
 grep -v bin /etc/passwd : Displays all the lines that exclude "bin" pattern in them in the file /etc/passwd.
 cat /etc/ssh/sshd_config | grep "^[[:upper:]]" : Displays all lines of the file /etc/ssh/sshd_config starting with a letter and including capital letters.
-echo ABc | Ac Ze : Replaces all the characters A and c from input to Z and e respectively.
+tr Ac Ze : Replaces all the characters A and c from input to Z and e respectively.
