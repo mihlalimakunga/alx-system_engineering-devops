@@ -20,3 +20,4 @@ grep -v bin /etc/passwd : Displays all the lines that exclude "bin" pattern in t
 cat /etc/ssh/sshd_config | grep "^[[:upper:]]" : Displays all lines of the file /etc/ssh/sshd_config starting with a letter and including capital letters.
 tr Ac Ze : Replaces all the characters A and c from input to Z and e respectively.
 tr -d 'cC' : Removes all letters c and C from input.
+rev : Reverses its input.
