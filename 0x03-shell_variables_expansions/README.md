@@ -31,3 +31,5 @@ printf "%.2f \n" $NUM : Script that prints a number with two decimal places, fol
 printf '%x\n' $DECIMAL : Script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL.
 
 tr 'a-zA-Z' 'n-za-mN-ZA-N' : Script that encodes and decodes text using the rot13 encryption, assumming ASCII.
+
+paste - - | cut -f1 : Script that prints every other line from the input, starting with the first line.
